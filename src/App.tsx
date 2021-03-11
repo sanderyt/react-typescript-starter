@@ -1,5 +1,11 @@
 import React, { FC } from "react";
+import GlobalStyle from "./styles/globalStyles";
 
-export const App: FC = () => (
-  <h1>This is a React application with TypeScript!</h1>
-);
+export const App: FC = () => {
+  return (
+    <>
+      <GlobalStyle />
+      <h1>My React Application</h1>
+    </>
+  );
+};

@@ -2,7 +2,7 @@ const path = require("path");
 module.exports = {
   entry: "./src/index.tsx",
   output: {
-    path: path.resolve(__dirname, "./dist"),
+    path: path.resolve(__dirname, "./public"),
     filename: "bundle.js"
   },
   module: {
@@ -20,7 +20,7 @@ module.exports = {
     extensions: [".tsx", ".ts", ".jsx", ".js"]
   },
   devServer: {
-    contentBase: path.resolve(__dirname, "./dist"),
+    contentBase: path.resolve(__dirname, "./public"),
     port: 5000
   }
 };
