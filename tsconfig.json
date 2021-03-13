@@ -15,5 +15,5 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "exclude": ["node_modules", "typings"]
+  "exclude": ["node_modules", "typings", "templates"]
 }
