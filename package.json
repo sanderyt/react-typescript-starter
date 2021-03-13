@@ -10,7 +10,7 @@
     "dev": "webpack serve --open --hot --mode=development",
     "build": "webpack --mode production --progress --hide-modules",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
-    "create-component": "npx generate-react-cli component ${0}:create-component"
+    "component": "npx generate-react-cli component ${0}component"
   },
   "devDependencies": {
     "@babel/core": "^7.13.10",
@@ -37,6 +37,8 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
+    "@testing-library/react": "^11.2.5",
+    "@types/jest": "^26.0.20",
     "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.7",
     "generate-react-cli": "^6.0.2",

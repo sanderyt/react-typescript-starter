@@ -19,6 +19,6 @@ export const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    font-family: "Gordita", "sans-serif";
+    font-family: "Gordita", "Open Sans", "sans-serif";
   }
 `;
