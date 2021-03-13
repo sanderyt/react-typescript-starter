@@ -3,7 +3,7 @@ module.exports = {
   entry: "./src/index.tsx",
   output: {
     path: path.resolve(__dirname, "./public"),
-    filename: "bundle.js"
+    filename: "bundle.js",
   },
   module: {
     rules: [
@@ -11,16 +11,16 @@ module.exports = {
         test: /\.(js|ts)x?$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
-        }
-      }
-    ]
+          loader: "babel-loader",
+        },
+      },
+    ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".jsx", ".js"]
+    extensions: [".tsx", ".ts", ".jsx", ".js"],
   },
   devServer: {
     contentBase: path.resolve(__dirname, "./public"),
-    port: 5000
-  }
+    port: 5000,
+  },
 };
