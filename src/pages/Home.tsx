@@ -1,12 +1,13 @@
 import React from "react";
-import Button from "../components/Button/Button";
+
+import { Grid } from "@material-ui/core";
 
 export const Home = () => {
   return (
-    <div>
-      <h1>Welcome to my React app!!</h1>
-      <h2>Starter pack</h2>
-      <Button />
-    </div>
+    <Grid container alignItems="center" direction="column">
+      <h2>🚀🚀 Starter-pack with:</h2>
+      <h3>React, TypeScript, Jest, React Testing Library, Styled Components and Material UI</h3>
+      <h3>Including Gordita and CirculatStd fonts</h3>
+    </Grid>
   );
 };
